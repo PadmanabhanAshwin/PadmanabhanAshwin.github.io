@@ -1,171 +1,45 @@
-<!doctype html>
-<html>
-    <head>    
-        
-        <title>Contact - Stackbit Fresh Theme</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="google" content="notranslate" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/css/main.css">
-        
-        
-    </head>
-    <body>
-        
-        <div id="page" class="site style-overflow palette-blue">
-  <header id="masthead" class="site-header dark">
-  <div class="site-header-wrap">
-    <div class="site-header-inside">
-      <div class="site-branding">
-        
-        
-        <p class="profile">
-          <a href='/'><img src="/images/avatar.png"
-              class="avatar" alt="Author Avatar" /></a>
-        </p><!-- .profile -->
-        
-        <div class="site-identity">
-          
-          <p class="site-title"><a href='/'>Stackbit Fresh</a></p>
-          
-          
-          
-          <p class="site-description">Header Tagline</p>
-          
-        </div><!-- .site-identity -->
-        
-        <button id="menu-toggle" class="menu-toggle"><span class="screen-reader-text">Menu</span><span class="icon-menu"
-            aria-hidden="true"></span></button>
-        
-      </div><!-- .site-branding -->
-      
-      <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">
-        <div class="site-nav-wrap">
-          <div class="site-nav-inside">
-            <ul class="menu">
-              
-              <li class="menu-item ">
-                <a href="/">Home</a>
-              </li>
-              
-              <li class="menu-item ">
-                <a href="/blog/">Blog</a>
-              </li>
-              
-              <li class="menu-item ">
-                <a href="/style-guide/">Style Guide</a>
-              </li>
-              
-              <li class="menu-item ">
-                <a href="/about/">About</a>
-              </li>
-              
-              <li class="menu-item  current-menu-item">
-                <a href="/contact/">Contact</a>
-              </li>
-              
-            </ul><!-- .menu -->
-            
-            
-            <div class="social-links">
-  
-  
-  
-  <a href="https://twitter.com/" target="_blank" rel="noopener"><span class="fab fa-twitter" aria-hidden="true"></span><span class="screen-reader-text">Twitter</span></a>
-  
-  
-  
-  
-  <a href="https://www.instagram.com/" target="_blank" rel="noopener"><span class="fab fa-instagram" aria-hidden="true"></span><span class="screen-reader-text">Instagram</span></a>
-  
-  
-  
-  
-  <a href="https://github.com/" target="_blank" rel="noopener"><span class="fab fa-github" aria-hidden="true"></span><span class="screen-reader-text">GitHub</span></a>
-  
-  
-  
-  
-  <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><span class="fab fa-linkedin" aria-hidden="true"></span><span class="screen-reader-text">LinkedIn</span></a>
-  
-  
-  
-  
-  <a href="https://dev.to/" target="_blank" rel="noopener"><span class="fab fa-dev" aria-hidden="true"></span><span class="screen-reader-text">DEV</span></a>
-  
-  
-</div><!-- .social-links -->
+<p>Jekyll is a great tool to create static sites, but there’s no backend to send your data to.</p>
 
-            
-          </div><!-- .site-nav-inside -->
-        </div><!-- .site-nav-wrap -->
-      </nav><!-- .site-navigation -->
-      
-    </div><!-- .site-header-inside -->
-  </div><!-- .site-header-wrap -->
-</header><!-- .site-header -->
+<p>However, you can use free SaaS as a backend for forms, such as <a href="https://formspree.io/">Formspree</a> to handle form submissions. Sleek has a configured form using formspree ready for you. All you have to do is change the email in <code class="highlighter-rouge">.config.yml</code>.</p>
 
-  <div id="content" class="site-content">
-    <div class="inner">
-      <main id="main" class="site-main">
-        <article class="post page post-full">
-  <header class="post-header">
-    <h1 class="post-title underline">Contact</h1>
-  </header><!-- .post-header -->
-  
-  
-  
-  
-  <div class="post-content">
-    <p>To get in touch fill the form below.</p>
+<p>Check the form below to see it in action!</p>
 
-    <form name="contactForm" method="POST" netlify-honeypot="bot-field" data-netlify="true" id="contact-form"
-      class="contact-form">
-      <p class="screen-reader-text">
-        <label>Don't fill this out if you're human: <input name="bot-field" /></label>
-      </p>
-      <p class="form-row">
-        <label class="form-label">Name *</label>
-        <input type="text" name="name" placeholder="Your name..." class="form-input">
-      </p>
-      <p class="form-row">
-        <label class="form-label">Email *</label>
-        <input type="email" name="email" placeholder="Your email address..." class="form-input">
-      </p>
-      <p class="form-row">
-        <label class="form-label">Message *</label>
-        <textarea name="message" placeholder="Your message..." class="form-textarea" rows="7"></textarea>
-      </p>
-      <input type="hidden" name="form-name" value="contactForm" />
-      <p class="form-row">
-        <button type="submit" class="button">Send Message</button>
-      </p>
-    </form><!-- .contact-form -->
-  </div><!-- .post-content -->
-</article><!-- .post -->
+<h3 id="example-formspree-contact-form-with-validation-and-recaptcha">Example Formspree contact form with validation and reCaptcha</h3>
 
-      </main><!-- .site-main -->
-      <footer id="colophon" class="site-footer">
-  <p class="site-info">
-    &copy; All rights reserved.
-    &nbsp;
-    
-    <a href="https://www.stackbit.com" 
-      target="_blank" rel="noopener"
-      >Made with Stackbit</a>.
-    
-  </p><!-- .site-info -->
-  <a id="to-top" class="to-top" href="#page"><span class="icon-arrow-up" aria-hidden="true"></span><span
-      class="screen-reader-text">Back to top</span></a>
-</footer><!-- .site-footer -->
+<p>Fill in the form or <a href="mailto:">email me</a> to discuss your next project.</p>
 
-    </div><!-- .inner -->
-  </div><!-- .site-content -->
-</div><!-- .site -->
+<form id="contactForm" action="https://formspree.io/" method="post" novalidate="">
+  <div class="form__input half">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" autocomplete="name" required="" />
+  </div>
 
-        <!-- Scripts -->
-        <script src="/assets/js/plugins.js"></script>
-        <script src="/assets/js/main.js"></script>
-    </body> 
-</html>
+  <div class="form__input input half">
+    <label for="email">Email</label>
+    <input type="email" name="_replyto" id="email" autocomplete="email" required="" />
+  </div>
+
+  <div class="form__input">
+    <label for="message">Message</label>
+    <textarea type="text" name="message" id="message" rows="7" autocomplete="message" required=""></textarea>
+  </div>
+
+  <input type="hidden" name="_subject" value="Website Form submission" />
+  <input type="hidden" name="_format" value="plain" />
+  <input class="hidden" type="text" name="_gotcha" />
+  <button class="btn js-submit" type="submit" value="Send">Send</button>
+</form>
+
+<div class="modal" role="dialog">
+  <div class="modal__inner" role="document" tabindex="-1">
+    <div class="modal__content">
+      <button class="modal__close-button js-modal-close">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24"><defs><path id="a" d="M12 11.033L7.167 6.2a.684.684 0 1 0-.967.967L11.033 12 6.2 16.833a.684.684 0 0 0 .967.967L12 12.967l4.833 4.833a.684.684 0 1 0 .967-.967L12.967 12 17.8 7.167a.684.684 0 0 0-.967-.967L12 11.033z" /></defs><use fill="fillColor" xlink:href="#a" fill-rule="evenodd" /></svg>
+      </button>
+      <div class="modal__body">
+      </div>
+    </div>
+  </div>
+  <div class="modal__overlay"></div>
+</div>
+
