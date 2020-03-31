@@ -2,7 +2,7 @@
 title: Hey there. I am Ashwin Padmanabhan! # your site title
 author: PadmanabhanAshwin # You :P
 description: > # Meta description of Homepage
-  Personal Website of Ashwin Padmanabhan
+  Ashwin Padmanabhan's personal website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://padmanabhanashwin.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -32,7 +32,7 @@ email: ashwinpadmanabhan95@gmail.com # email for form submission
 
 #twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
 github_username:  PadmanabhanAshwin # replace with your_github_username or comment to remove link from footer
-instagram_username: ashwinpadmanabhan # replace with your_instagram_username or comment to remove link from footer
+#instagram_username: ashwinpadmanabhan # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
   shortname: Ashwin # to enable comments replace with your_disqus_shortname
