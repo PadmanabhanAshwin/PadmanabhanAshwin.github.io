@@ -15,5 +15,3 @@ Upon graduating, I joined the Process Mechanics team I had previously interned f
 During my time working as a Data Science Intern at Tesla, CA, my job role involved serving as the system logic owner for the Tesla's Material Requirement Planning (MRP) and Transportation Management System (TMS). We were consistently called upon by operations teams for system support and trouble-shooting to aid high-impact planning/logistics operations.
 We were also responsible to creating ML tools to improve truck utilization so as to minimize logistics costs. The tools created a significant impact to organization-wide truck utilization as well as directed business decision to undertake similar projects within the team. 
 
-Otherwise, I like to hike, travel and read books! 
-
