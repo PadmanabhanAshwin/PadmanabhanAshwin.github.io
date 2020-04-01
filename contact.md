@@ -16,7 +16,7 @@ Phone: +1 (510) 925 8084
 Email: padmana6@purdue.edu
 ```
 
-Fill out the form below if you have suggestion on imporovements for the website or want to collaborate on your next Data Science project. Don't worry, I promise I am not stealing/storing your data. :P
+Fill out the form below if you have suggestion on imporovements for the website or want to collaborate on your next Data Science project. 
 
 ### Please fill this form to get in touch! 
 
