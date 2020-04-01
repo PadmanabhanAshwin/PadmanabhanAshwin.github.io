@@ -6,7 +6,7 @@ permalink: /about/
 
 <img style="float: right;" src="/assets/img/posts/mynew.png">
 
-I am presently a Graduate Student in the School of Industrial Engineering at Purdue University, West Lafayette, IN. My work mostly involves Machine Learning, Statistics, Data Visualization, Probability Theory and Heuristics. 
+I'm presently a Graduate Student in the School of Industrial Engineering at Purdue University, West Lafayette, IN. My work mostly involves Machine Learning, Statistics, Data Visualization, Probability Theory and Heuristics. 
 
 A bachelor's in Chemical Engineering, my exposure to Statistics began while working at one of India's largest petroleum refineries. My team focused on process improvement; experiments were designed to quantify cause-effect and functionality was sequentially added and A/B tested before deploying to production.
 
