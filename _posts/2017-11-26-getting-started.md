@@ -1,19 +1,13 @@
 ---
 layout: post
-title: Getting Started with Sleek
-featured-img: sleek
+title: Genetic Algorithms
+featured-img: evolution
 mathjax: true
 ---
 
-# Getting started
+# Overview to Genetic Algorithms:
+Genetic Algorithms, in the context of Computer Science and Operations Research, is an optimization heuristic algorithm inspired from evolution as seen in nature.
 
-[GitHub Pages](https://pages.github.com) can automatically generate and serve the website for you.
-Let's say you have a username/organisation `my-org` and project `my-proj`; if you locate Jekyll source under `blog` folder of master branch in your repo `github.com/my-org/my-proj`, the website will be served on `my-org.github.io/my-proj`.
-
-1. Just download or fork and clone the source from [github.com/janczizikow/sleek](https://github.com/janczizikow/sleek/).
-2. Make sure your local machine has ruby and node
-3. Edit site settings in  `_config.yml` file according to your project.
-4. Replace `favicons` and `_includes/logo.svg` with your own logo.
 
 **Note** that you might have to adjust some CSS depending on the width and height of your logo. You can find Header / Navigation related SCSS in `_sass/layout/nav.scss`.
 
@@ -28,7 +22,7 @@ Create a new Markdown file such as `2017-01-13-my-post.md` in `_post` folder. Co
 ---
 layout: post # needs to be post
 title: Getting Started with Sleek # title of your post
-featured-img: sleek #optional - if you want you can include hero image
+featured-img: evolution #optional - if you want you can include hero image
 ---
 
 ```
