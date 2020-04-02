@@ -8,7 +8,7 @@ mathjax: true
 # Overview to Genetic Algorithms:
 Genetic Algorithms, in the context of Computer Science and Operations Research, is an optimization heuristic algorithm inspired from evolution as seen in nature.
 
-
+<!-- 
 **Note** that you might have to adjust some CSS depending on the width and height of your logo. You can find Header / Navigation related SCSS in `_sass/layout/nav.scss`.
 
 ## Writing content
@@ -78,4 +78,4 @@ divides out of the N-simplex height $h = s \sqrt {\frac {N + 1} {2N}}$.
 The kerel summation radius $r$ is equal to the N-simplex height $h$.
 
 $$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
-Happy hacking!
+Happy hacking! -->
