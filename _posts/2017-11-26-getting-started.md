@@ -34,13 +34,12 @@ In the preceding paragraph, we spoke about how the child has a *combination* of 
 # Componenets in a GA: 
 Most GAs consist of the following componenets: 
 
-* Representation: How a given solution is represented. In the Knapsack Problem above, it was represented as a $[1X5]$ vector. Each vector is a possible solution. 
-* Initial Population: The set of solutions you start with. This is usually just randomly generated. Imagine 10 of these 
+* **Representation**: How a given solution is represented. In the Knapsack Problem above, it was represented as a $[1X5]$ vector. Each vector is a possible solution. 
+* **Initial Population**: The set of solutions you start with. This is usually just randomly generated. Imagine 10 of these 
  $[1X5]$ vectors with zeros and ones in random indices. 
- * Selection: The process of selecting parents from the population used to generate progeny. This is where a gentle pressure (called selection pressure) is applied to make sure you move towards better solutions. There are many types of selection, but the usual premise is, individuals in the population which have higher fitness have higher probability to be selected to be parents. Commong selection methods are "Tournament Selection" or "Roulette-Wheel Selection". 
- * Cross-Over: Once the parents are selected, we need to generate the child. Say Parent 1 has genotype $[ P_{11}, P_{12}, .. , P_{15} ]$ and Parent 2 has genotype $[ P_{21}, P_{22}, .. , P_{25} ]$, one way to generate the child would be to use genotypes from index 0 to 3 from parent 1 and use genotypes from index 4, 5 to create the child. Therefore the child would have genotype $[ P_{11}, P_{12}, P{13}, P{24}, P_{25} ]$. This is called the one-fold cross-over. 
- * Mutation: With a given probability, a random index of the genotype is changes. For example, if the child has genotype 
-$[ P_{11}, P_{12}, P{13}, P{24}, P_{25} ]$, one position, randomly selected is flipped (if its a 0, it's flippled to 1 or vice versa). 
+ * **Selection**: The process of selecting parents from the population used to generate progeny. This is where a gentle pressure (called selection pressure) is applied to make sure you move towards better solutions. There are many types of selection, but the usual premise is, individuals in the population which have higher fitness have higher probability to be selected to be parents. Common selection methods are "Tournament Selection" or "Roulette-Wheel Selection". 
+ * **Cross-Over**: Once the parents are selected, we need to generate the child. Say Parent 1 has genotype $[ P_{11}, P_{12}, .. , P_{15} ]$ and Parent 2 has genotype $[ P_{21}, P_{22}, .. , P_{25} ]$, one way to generate the child would be to use genotypes from index 0 to 3 from parent 1 and use genotypes from index 4, 5 to create the child. Therefore the child would have genotype $[ P_{11}, P_{12}, P{13}, P{24}, P_{25} ]$. This is called the one-fold cross-over. You could also choose to do a two-fold crossover, where the genotype switches from one parent to the other twice. 
+ * **Mutation**: With a given probability, a randomly chosen index of the genotype is changes. For example, if the child has genotype $[ P_{11}, P_{12}, P{13}, P{24}, P_{25} ]$, one position, randomly selected is flipped (if its a 0, it's flippled to 1 or vice versa). 
 
 
 <!-- 
