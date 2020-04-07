@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Markdown Cheatsheet
-summary: Markdown is a way to style text on the web. You control the display of the document; formating words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in.
+title: Ant Colony Optimization
+summary: Heuristics- Ant Colony Optimization for network problems. 
 featured-img: emile-perron-190221
 categories: Guides
 ---
 
-From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+<!-- From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ##### Table of Contents
 [Headers](#headers)
@@ -403,4 +403,4 @@ Referencing a bug by #bugID in your git commit links it to the slip. For example
 
 ---
 
-License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
+License: [CC-BY](https://creativecommons.org/licenses/by/3.0/) -->
