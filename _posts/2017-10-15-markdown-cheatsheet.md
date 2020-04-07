@@ -2,8 +2,8 @@
 layout: post
 title: Ant Colony Optimization
 summary: Heuristics- Ant Colony Optimization for network problems. 
-featured-img: emile-perron-190221
-categories: Guides
+featured-img: ant
+#categories: Guides
 ---
 
 <!-- From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
