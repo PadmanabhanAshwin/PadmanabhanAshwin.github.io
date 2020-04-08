@@ -3,6 +3,7 @@ layout: post
 title: Genetic Algorithms
 featured-img: evolution
 mathjax: true
+categories: Guides
 ---
 
 # Overview to Genetic Algorithms:

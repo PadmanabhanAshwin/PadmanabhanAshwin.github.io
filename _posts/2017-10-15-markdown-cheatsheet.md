@@ -3,13 +3,13 @@ layout: post
 title: Ant Colony Optimization
 summary: Heuristics- Ant Colony Optimization for network problems. 
 featured-img: ant
-#categories: Guides
+categories: Guides
 ---
 
 # Ant-Colony Optimization
 
 ## Introduction
-Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems.
+Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems. 
 
 
 
