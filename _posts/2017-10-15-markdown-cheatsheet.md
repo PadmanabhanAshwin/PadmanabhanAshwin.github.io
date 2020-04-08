@@ -9,7 +9,7 @@ categories: Guides
 # Ant-Colony Optimization
 
 ## Introduction
-Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems. 
+Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems. ACO falls under the broader class of "Swarm Intelligence" algorithms. 
 
 
 
