@@ -6,6 +6,13 @@ featured-img: ant
 #categories: Guides
 ---
 
+# Ant-Colony Optimization
+
+## Introduction
+Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems.
+
+
+
 <!-- From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ##### Table of Contents
