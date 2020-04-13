@@ -4,13 +4,17 @@ title: Ant Colony Optimization
 summary: Heuristics- Ant Colony Optimization for network problems. 
 featured-img: ant
 categories: Guides
+header-includes:
+  - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
 ---
 
 # Ant-Colony Optimization
 
 ## Introduction
-Ant-Colony Optimization is another Nature-Inpired meta-heuristic technique unusally suited for network problems. ACO falls under the broader class of "Swarm Intelligence" algorithms. 
+Ant-Colony Optimization is a Nature-Inpired metaheuristic technique unusally suited for network problems. ACO falls under the broader class of "Swarm Intelligence" algorithms. 
 
+## Algorithm for Shortest Path: 
+Let us say we have a graph $G(V, E) $ with V vertices and E edges. We are given a source node, s, and a target node, t, between which the shortest distance is to be calculated. A crutial part to ACO is the "pheromone" on each node. The idea of pheromone is derived from real ant colonies in which ants that traverse a path drop pheromone (a chemical) which sucessive ants tend to follow. Eventually a path with highest pheromone is chosen as the shortest path. In addition, with each successive iteration some pheromone is evaporated from all nodes (usually about 10%.). The probability than an ant from a given node goes to one of it's neighbouring nodes is proportional to the amount of pheromone in these neighbouring nodes. 
 
 
 <!-- From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
