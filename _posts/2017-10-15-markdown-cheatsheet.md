@@ -16,6 +16,10 @@ Ant-Colony Optimization is a Nature-Inpired metaheuristic technique unusally sui
 ## Algorithm for Shortest Path: 
 Let us say we have a graph $G(V, E) $ with V vertices and E edges. We are given a source node, s, and a target node, t, between which the shortest distance is to be calculated. A crutial part to ACO is the "pheromone" on each node. The idea of pheromone is derived from real ant colonies in which ants that traverse a path drop pheromone (a chemical) which sucessive ants tend to follow. Eventually a path with highest pheromone is chosen as the shortest path. In addition, with each successive iteration some pheromone is evaporated from all nodes (usually about 10%.). The probability than an ant from a given node goes to one of it's neighbouring nodes is proportional to the amount of pheromone in these neighbouring nodes. Eventually over several iterations the pheromones will converge and the a heuristic for the shortest path is generated. 
 
+## Psuedo-code for Knapsack. 
+
+## Results 
+
 
 
 
