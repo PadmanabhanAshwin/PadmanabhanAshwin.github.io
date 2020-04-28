@@ -18,6 +18,7 @@ Let us say we have a graph $G(V, E) $ with V vertices and E edges. We are given 
 
 ## Psuedo-code for Knapsack. 
 
+## Concluding comments. 
 ## Results 
 
 
