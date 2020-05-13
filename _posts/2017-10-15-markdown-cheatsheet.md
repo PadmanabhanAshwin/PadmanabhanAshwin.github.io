@@ -23,8 +23,7 @@ Give algorithms for solving knapsack and shortest path.
 
 ## Concluding comments. 
 
-
-
+# End
 
 
 <!-- From [adam-p/markdown-here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
