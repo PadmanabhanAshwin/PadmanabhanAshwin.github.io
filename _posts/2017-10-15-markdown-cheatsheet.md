@@ -21,7 +21,7 @@ Give algorithms for solving knapsack and shortest path.
 
 ## Results 
 
-## Concluding comments. 
+## Concluding comments:
 
 # End
 
